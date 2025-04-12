@@ -1,0 +1,26 @@
+# Entorno virtual de Python (si usas uno)
+venv/
+.venv/
+
+# Archivos de Python compilados
+*.pyc
+__pycache__/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+aamzing - Acceso directo.lnk
+
+# Archivos de configuración local (información sensible)
+static/.env
+
+# Otros archivos o carpetas que no deberías rastrear
+static/app.py   # Si no es tu backend principal
+static/appi.py  # Si no es necesario
+templates/.gitignore # Considera eliminar este archivo en su lugar
+
+git rm --cached "aamzing - Acceso directo.lnk"
+git rm --cached "static/.env"
+git rm --cached "static/app.py"   # Si aplica
+git rm --cached "static/appi.py"  # Si aplica
+git rm --cached "templates/.gitignore" # Si aplica
